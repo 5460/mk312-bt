@@ -48,12 +48,12 @@ P 5900 1400
 AR Path="/5E3BF956" Ref="R?"  Part="1" 
 AR Path="/5CB40F50/5E3BF956" Ref="R3"  Part="1" 
 F 0 "R3" H 5750 1459 59  0000 L BNN
-F 1 "100K" H 5750 1270 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 1400 50  0001 C CNN
+F 1 "10K" H 5750 1270 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5900 1400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 5900 1400 50  0001 C CNN
-F 4 "Panasonic" H 5900 1400 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F1003V" H 5900 1400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F1003V" H 5900 1400 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 5900 1400 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-0710KL" H 5900 1400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-0710KL" H 5900 1400 50  0001 C CNN "Mouser Part Number"
 	1    5900 1400
 	1    0    0    -1  
 $EndComp
@@ -64,12 +64,12 @@ P 5900 2100
 AR Path="/0D06550A" Ref="R?"  Part="1" 
 AR Path="/5CB40F50/0D06550A" Ref="R4"  Part="1" 
 F 0 "R4" H 5750 2159 59  0000 L BNN
-F 1 "20K" H 5750 1970 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 2100 50  0001 C CNN
+F 1 "2K" H 5750 1970 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5900 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 5900 2100 50  0001 C CNN
-F 4 "Panasonic" H 5900 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F2002V" H 5900 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F2002V" H 5900 2100 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 5900 2100 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-072KL" H 5900 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-072KL" H 5900 2100 50  0001 C CNN "Mouser Part Number"
 	1    5900 2100
 	1    0    0    -1  
 $EndComp
@@ -81,11 +81,11 @@ AR Path="/F7FD3D77" Ref="R?"  Part="1"
 AR Path="/5CB40F50/F7FD3D77" Ref="R6"  Part="1" 
 F 0 "R6" H 6150 2159 59  0000 L BNN
 F 1 "3.3K" H 6150 1970 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6300 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 6300 2100 50  0001 C CNN
-F 4 "Panasonic" H 6300 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F3301V" H 6300 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F3301V" H 6300 2100 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 6300 2100 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402JR-133K3L" H 6300 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402JR-133K3L" H 6300 2100 50  0001 C CNN "Mouser Part Number"
 	1    6300 2100
 	1    0    0    -1  
 $EndComp
@@ -97,11 +97,11 @@ AR Path="/40871C63" Ref="R?"  Part="1"
 AR Path="/5CB40F50/40871C63" Ref="R5"  Part="1" 
 F 0 "R5" H 6150 1459 59  0000 L BNN
 F 1 "10K" H 6150 1270 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6300 1400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 6300 1400 50  0001 C CNN
-F 4 "Panasonic" H 6300 1400 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F1002V" H 6300 1400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F1002V" H 6300 1400 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 6300 1400 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-0710KL" H 6300 1400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-0710KL" H 6300 1400 50  0001 C CNN "Mouser Part Number"
 	1    6300 1400
 	-1   0    0    1   
 $EndComp
@@ -144,9 +144,9 @@ F 0 "C15" H 2840 2125 59  0000 L BNN
 F 1 "18pF" H 2840 1935 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2800 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf" H 2800 2100 50  0001 C CNN
-F 4 "Murata" H 2800 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "GCM1555C1H180FA16J" H 2800 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "81-GCM1555C1H180FA6J" H 2800 2100 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 2800 2100 50  0001 C CNN "Manufacturer_Name"
+F 5 "CC402JRNPO9BN180" H 2800 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-CC402JRNPO9BN180" H 2800 2100 50  0001 C CNN "Mouser Part Number"
 	1    2800 2100
 	-1   0    0    -1  
 $EndComp
@@ -160,9 +160,9 @@ F 0 "C16" H 3240 2125 59  0000 L BNN
 F 1 "18pF" H 3240 1935 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3200 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf" H 3200 2100 50  0001 C CNN
-F 4 "Murata" H 3200 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "GCM1555C1H180FA16J" H 3200 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "81-GCM1555C1H180FA6J" H 3200 2100 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 3200 2100 50  0001 C CNN "Manufacturer_Name"
+F 5 "CC402JRNPO9BN180" H 3200 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-CC402JRNPO9BN180" H 3200 2100 50  0001 C CNN "Mouser Part Number"
 	1    3200 2100
 	1    0    0    -1  
 $EndComp
@@ -215,9 +215,9 @@ F 0 "C18" H 4240 975 59  0000 L BNN
 F 1 "0.1uF" H 4240 785 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 4200 950 50  0001 C CNN
-F 4 "Murata" H 4200 950 50  0001 C CNN "Manufacturer_Name"
-F 5 "GCM155R71C104JA55D" H 4200 950 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "81-GCM155R71C104JA5D" H 4200 950 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 4200 950 50  0001 C CNN "Manufacturer_Name"
+F 5 "CC402KRX7R7BB104" H 4200 950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-CC402KRX7R7BB104" H 4200 950 50  0001 C CNN "Mouser Part Number"
 	1    4200 950 
 	0    1    1    0   
 $EndComp
@@ -244,9 +244,9 @@ F 0 "C17" H 4240 675 59  0000 L BNN
 F 1 "0.1uF" H 4240 485 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 650 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 4200 650 50  0001 C CNN
-F 4 "Murata" H 4200 650 50  0001 C CNN "Manufacturer_Name"
-F 5 "GCM155R71C104JA55D" H 4200 650 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "81-GCM155R71C104JA5D" H 4200 650 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 4200 650 50  0001 C CNN "Manufacturer_Name"
+F 5 "CC402KRX7R7BB104" H 4200 650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-CC402KRX7R7BB104" H 4200 650 50  0001 C CNN "Mouser Part Number"
 	1    4200 650 
 	0    1    -1   0   
 $EndComp

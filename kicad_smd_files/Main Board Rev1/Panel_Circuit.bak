@@ -31,11 +31,11 @@ AR Path="/BCDF5D1A" Ref="R?"  Part="1"
 AR Path="/5CB412A8/BCDF5D1A" Ref="R11"  Part="1" 
 F 0 "R11" H 6650 5459 59  0000 L BNN
 F 1 "47" H 6650 5270 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6800 5400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 6800 5400 50  0001 C CNN
-F 4 "Panasonic" H 6800 5400 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F47R0V" H 6800 5400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F47R0V" H 6800 5400 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 6800 5400 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-0747RL" H 6800 5400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-0747RL" H 6800 5400 50  0001 C CNN "Mouser Part Number"
 	1    6800 5400
 	1    0    0    -1  
 $EndComp
@@ -63,11 +63,11 @@ AR Path="/D91538FF" Ref="R?"  Part="1"
 AR Path="/5CB412A8/D91538FF" Ref="R9"  Part="1" 
 F 0 "R9" H 3850 6359 59  0000 L BNN
 F 1 "390" H 3850 6170 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4000 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 4000 6300 50  0001 C CNN
-F 4 "Panasonic" H 4000 6300 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F3900V" H 4000 6300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F3900V" H 4000 6300 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 4000 6300 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402JR-07390RL" H 4000 6300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402JR-07390RL" H 4000 6300 50  0001 C CNN "Mouser Part Number"
 	1    4000 6300
 	-1   0    0    1   
 $EndComp
@@ -79,11 +79,11 @@ AR Path="/F12CABB7" Ref="R?"  Part="1"
 AR Path="/5CB412A8/F12CABB7" Ref="R8"  Part="1" 
 F 0 "R8" H 3450 6359 59  0000 L BNN
 F 1 "390" H 3450 6170 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 3600 6300 50  0001 C CNN
-F 4 "Panasonic" H 3600 6300 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F3900V" H 3600 6300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F3900V" H 3600 6300 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 3600 6300 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402JR-07390RL" H 3600 6300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402JR-07390RL" H 3600 6300 50  0001 C CNN "Mouser Part Number"
 	1    3600 6300
 	-1   0    0    1   
 $EndComp
@@ -97,9 +97,9 @@ F 0 "C19" H 6390 1125 59  0000 L BNN
 F 1 "0.1uF" H 6390 935 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6350 1100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 6350 1100 50  0001 C CNN
-F 4 "Murata" H 6350 1100 50  0001 C CNN "Manufacturer_Name"
-F 5 "GCM155R71C104JA55D" H 6350 1100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "81-GCM155R71C104JA5D" H 6350 1100 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 6350 1100 50  0001 C CNN "Manufacturer_Name"
+F 5 "CC402KRX7R7BB104" H 6350 1100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-CC402KRX7R7BB104" H 6350 1100 50  0001 C CNN "Mouser Part Number"
 	1    6350 1100
 	1    0    0    -1  
 $EndComp
@@ -111,11 +111,11 @@ AR Path="/867FC228" Ref="R?"  Part="1"
 AR Path="/5CB412A8/867FC228" Ref="R7"  Part="1" 
 F 0 "R7" H 3050 6359 59  0000 L BNN
 F 1 "390" H 3050 6170 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3200 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 3200 6300 50  0001 C CNN
-F 4 "Panasonic" H 3200 6300 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F3900V" H 3200 6300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F3900V" H 3200 6300 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 3200 6300 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402JR-07390RL" H 3200 6300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402JR-07390RL" H 3200 6300 50  0001 C CNN "Mouser Part Number"
 	1    3200 6300
 	-1   0    0    1   
 $EndComp
@@ -126,12 +126,12 @@ P 9350 6400
 AR Path="/6A33A87D" Ref="Q?"  Part="1" 
 AR Path="/5CB412A8/6A33A87D" Ref="Q1"  Part="1" 
 F 0 "Q1" H 8950 6700 59  0000 L BNN
-F 1 "MMBT3904-7-F" H 8950 6600 59  0000 L BNN
+F 1 "MMBT3904" H 8950 6600 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9350 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/ds30036-41708.pdf" H 9350 6400 50  0001 C CNN
-F 4 "Diodes Incorporated" H 9350 6400 50  0001 C CNN "Manufacturer_Name"
-F 5 "MMBT3904-7-F" H 9350 6400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-MMBT3904-F" H 9350 6400 50  0001 C CNN "Mouser Part Number"
+F 4 "Nexperia" H 9350 6400 50  0001 C CNN "Manufacturer_Name"
+F 5 "MMBT3904" H 9350 6400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "771-MMBT3904T/R" H 9350 6400 50  0001 C CNN "Mouser Part Number"
 	1    9350 6400
 	1    0    0    -1  
 $EndComp
@@ -142,12 +142,12 @@ P 9950 6400
 AR Path="/2D2CC871" Ref="Q?"  Part="1" 
 AR Path="/5CB412A8/2D2CC871" Ref="Q2"  Part="1" 
 F 0 "Q2" H 9550 6700 59  0000 L BNN
-F 1 "MMBT3904-7-F" H 9550 6600 59  0000 L BNN
+F 1 "MMBT3904" H 9550 6600 59  0000 L BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9950 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/ds30036-41708.pdf" H 9950 6400 50  0001 C CNN
-F 4 "Diodes Incorporated" H 9950 6400 50  0001 C CNN "Manufacturer_Name"
-F 5 "MMBT3904-7-F" H 9950 6400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "621-MMBT3904-F" H 9950 6400 50  0001 C CNN "Mouser Part Number"
+F 4 "Nexperia" H 9950 6400 50  0001 C CNN "Manufacturer_Name"
+F 5 "MMBT3904" H 9950 6400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "771-MMBT3904T/R" H 9950 6400 50  0001 C CNN "Mouser Part Number"
 	1    9950 6400
 	1    0    0    -1  
 $EndComp
@@ -159,11 +159,11 @@ AR Path="/326F79C8" Ref="R?"  Part="1"
 AR Path="/5CB412A8/326F79C8" Ref="R12"  Part="1" 
 F 0 "R12" H 8800 6459 59  0000 L BNN
 F 1 "1.5K" H 8800 6270 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8950 6400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 8950 6400 50  0001 C CNN
-F 4 "Panasonic" H 8950 6400 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F1501V" H 8950 6400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F1501V" H 8950 6400 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 8950 6400 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-071K5L" H 8950 6400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-071K5L" H 8950 6400 50  0001 C CNN "Mouser Part Number"
 	1    8950 6400
 	0    -1   -1   0   
 $EndComp
@@ -175,11 +175,11 @@ AR Path="/EB1BE326" Ref="R?"  Part="1"
 AR Path="/5CB412A8/EB1BE326" Ref="R13"  Part="1" 
 F 0 "R13" H 9300 5859 59  0000 L BNN
 F 1 "1.5K" H 9300 5670 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9450 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9450 5800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 9450 5800 50  0001 C CNN
-F 4 "Panasonic" H 9450 5800 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F1501V" H 9450 5800 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F1501V" H 9450 5800 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 9450 5800 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402FR-071K5L" H 9450 5800 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402FR-071K5L" H 9450 5800 50  0001 C CNN "Mouser Part Number"
 	1    9450 5800
 	-1   0    0    1   
 $EndComp
@@ -191,11 +191,11 @@ AR Path="/88B124BF" Ref="R?"  Part="1"
 AR Path="/5CB412A8/88B124BF" Ref="R10"  Part="1" 
 F 0 "R10" H 4250 6359 59  0000 L BNN
 F 1 "390" H 4250 6170 59  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4400 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4400 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf" H 4400 6300 50  0001 C CNN
-F 4 "Panasonic" H 4400 6300 50  0001 C CNN "Manufacturer_Name"
-F 5 "ERJ-PA3F3900V" H 4400 6300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-ERJ-PA3F3900V" H 4400 6300 50  0001 C CNN "Mouser Part Number"
+F 4 "Yageo" H 4400 6300 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0402JR-07390RL" H 4400 6300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "603-RC0402JR-07390RL" H 4400 6300 50  0001 C CNN "Mouser Part Number"
 	1    4400 6300
 	-1   0    0    1   
 $EndComp
@@ -538,12 +538,12 @@ L 4xxx:4066 U3
 U 1 1 5CEF4C89
 P 8100 2700
 F 0 "U3" H 8100 2528 50  0000 C CNN
-F 1 "CD4006B" H 8100 2437 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 2700 50  0001 C CNN
+F 1 "CD4066B" H 8100 2437 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8100 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 2700 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 2700 50  0001 C CNN "Manufacturer_Name"
-F 5 "CD4066BM96" H 8100 2700 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "595-CD4066BM96" H 8100 2700 50  0001 C CNN "Mouser Part Number"
+F 5 "CD4066BPWR" H 8100 2700 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "595-CD4066BPWR" H 8100 2700 50  0001 C CNN "Mouser Part Number"
 	1    8100 2700
 	-1   0    0    -1  
 $EndComp
@@ -552,12 +552,12 @@ L 4xxx:4066 U3
 U 2 1 5CEF4D94
 P 8100 3400
 F 0 "U3" H 8100 3228 50  0000 C CNN
-F 1 "CD4006B" H 8100 3137 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 3400 50  0001 C CNN
+F 1 "CD4066B" H 8100 3137 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8100 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 3400 50  0001 C CNN "Manufacturer_Name"
-F 5 "CD4066BM96" H 8100 3400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "595-CD4066BM96" H 8100 3400 50  0001 C CNN "Mouser Part Number"
+F 5 "CD4066BPWR" H 8100 3400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "595-CD4066BPWR" H 8100 3400 50  0001 C CNN "Mouser Part Number"
 	2    8100 3400
 	-1   0    0    -1  
 $EndComp
@@ -566,12 +566,12 @@ L 4xxx:4066 U3
 U 3 1 5CEF4E23
 P 8100 4100
 F 0 "U3" H 8100 3928 50  0000 C CNN
-F 1 "CD4006B" H 8100 3837 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 4100 50  0001 C CNN
+F 1 "CD4066B" H 8100 3837 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8100 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 4100 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 4100 50  0001 C CNN "Manufacturer_Name"
-F 5 "CD4066BM96" H 8100 4100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "595-CD4066BM96" H 8100 4100 50  0001 C CNN "Mouser Part Number"
+F 5 "CD4066BPWR" H 8100 4100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "595-CD4066BPWR" H 8100 4100 50  0001 C CNN "Mouser Part Number"
 	3    8100 4100
 	-1   0    0    -1  
 $EndComp
@@ -580,12 +580,12 @@ L 4xxx:4066 U3
 U 4 1 5CEF4EC8
 P 8100 4800
 F 0 "U3" H 8100 4628 50  0000 C CNN
-F 1 "CD4006B" H 8100 4537 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8100 4800 50  0001 C CNN
+F 1 "CD4066B" H 8100 4537 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8100 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8100 4800 50  0001 C CNN
 F 4 "Texas Instruments" H 8100 4800 50  0001 C CNN "Manufacturer_Name"
-F 5 "CD4066BM96" H 8100 4800 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "595-CD4066BM96" H 8100 4800 50  0001 C CNN "Mouser Part Number"
+F 5 "CD4066BPWR" H 8100 4800 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "595-CD4066BPWR" H 8100 4800 50  0001 C CNN "Mouser Part Number"
 	4    8100 4800
 	-1   0    0    -1  
 $EndComp
@@ -594,12 +594,12 @@ L 4xxx:4066 U3
 U 5 1 5CEF4F9D
 P 6950 1150
 F 0 "U3" H 7180 1196 50  0000 L CNN
-F 1 "CD4006B" H 7180 1105 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6950 1150 50  0001 C CNN
+F 1 "CD4066B" H 7180 1105 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6950 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6950 1150 50  0001 C CNN
 F 4 "Texas Instruments" H 6950 1150 50  0001 C CNN "Manufacturer_Name"
-F 5 "CD4066BM96" H 6950 1150 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "595-CD4066BM96" H 6950 1150 50  0001 C CNN "Mouser Part Number"
+F 5 "CD4066BPWR" H 6950 1150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "595-CD4066BPWR" H 6950 1150 50  0001 C CNN "Mouser Part Number"
 	5    6950 1150
 	1    0    0    -1  
 $EndComp
