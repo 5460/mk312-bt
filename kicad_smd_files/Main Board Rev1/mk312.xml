@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>F:\mk312-bt-fork\kicad_smd_files\Main Board Rev1\mk312.sch</source>
-    <date>5/26/2019 1:04:17 AM</date>
+    <date>5/26/2019 6:36:09 PM</date>
     <tool>Eeschema (5.1.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -295,12 +295,12 @@
     </comp>
     <comp ref="J1">
       <value>Barrel_Jack_MountingPin</value>
-      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <footprint>mk312-smd-footprints:DJ_Jack_PJ-003A</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/670/pj-002a-1312176.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">CUI</field>
-        <field name="Manufacturer_Part_Number">PJ-002A</field>
-        <field name="Mouser Part Number">490-PJ-002A</field>
+        <field name="Manufacturer_Part_Number">PJ-003A</field>
+        <field name="Mouser Part Number">490-PJ-003A</field>
       </fields>
       <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
       <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
@@ -425,12 +425,12 @@
     </comp>
     <comp ref="S1">
       <value>POWER</value>
-      <footprint>mk312-smd-footprints:E-Switch_M7_SPDT</footprint>
+      <footprint>mk312-smd-footprints:SW_E-Switch-LC-1258</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/140/100-1079940.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">100SP1T2B4M7RE</field>
-        <field name="Mouser Part Number">612-100-A2472</field>
+        <field name="Manufacturer_Part_Number">LC1258EENP</field>
+        <field name="Mouser Part Number">612-LC1258EENP</field>
       </fields>
       <libsource lib="mk312" part="SW_SPDT_POWER" description="Switch, single pole double throw"/>
       <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
@@ -1281,7 +1281,7 @@
       <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">KEMET</field>
-        <field name="Manufacturer_Part_Number">C0402C102K5R7411</field>
+        <field name="Manufacturer_Part_Number">C0402C102K5RAC7411</field>
         <field name="Mouser Part Number">80-C0402C102K5R7411</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -1346,7 +1346,7 @@
       <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
       <fields>
         <field name="Manufacturer_Name">KEMET</field>
-        <field name="Manufacturer_Part_Number">C0402C102K5R7411</field>
+        <field name="Manufacturer_Part_Number">C0402C102K5RAC7411</field>
         <field name="Mouser Part Number">80-C0402C102K5R7411</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>

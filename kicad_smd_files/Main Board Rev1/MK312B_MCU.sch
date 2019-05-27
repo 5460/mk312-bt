@@ -145,7 +145,7 @@ F 1 "18pF" H 2840 1935 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2800 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf" H 2800 2100 50  0001 C CNN
 F 4 "Yageo" H 2800 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "CC402JRNPO9BN180" H 2800 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "CC0402JRNPO9BN180" H 2800 2100 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "603-CC402JRNPO9BN180" H 2800 2100 50  0001 C CNN "Mouser Part Number"
 	1    2800 2100
 	-1   0    0    -1  
@@ -161,7 +161,7 @@ F 1 "18pF" H 3240 1935 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3200 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf" H 3200 2100 50  0001 C CNN
 F 4 "Yageo" H 3200 2100 50  0001 C CNN "Manufacturer_Name"
-F 5 "CC402JRNPO9BN180" H 3200 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "CC0402JRNPO9BN180" H 3200 2100 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "603-CC402JRNPO9BN180" H 3200 2100 50  0001 C CNN "Mouser Part Number"
 	1    3200 2100
 	1    0    0    -1  

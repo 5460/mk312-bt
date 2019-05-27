@@ -753,11 +753,11 @@ U 1 1 5CBC86C0
 P 6200 1800
 F 0 "C4" H 6315 1846 50  0000 L CNN
 F 1 "1000uF" H 6315 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_10x10.2" H 6200 1800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf" H 6200 1800 50  0001 C CNN
-F 4 "Panasonic" H 6200 1800 50  0001 C CNN "Manufacturer_Name"
-F 5 "EEE-FK1C102SP" H 6200 1800 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-EEE-FK1C102SP" H 6200 1800 50  0001 C CNN "Mouser Part Number"
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 6200 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/293/e-ucm-883824.pdf" H 6200 1800 50  0001 C CNN
+F 4 "Nichicon" H 6200 1800 50  0001 C CNN "Manufacturer_Name"
+F 5 "UCM1C102MNL1GS" H 6200 1800 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "647-UCM1C102MNL1GS" H 6200 1800 50  0001 C CNN "Mouser Part Number"
 	1    6200 1800
 	1    0    0    -1  
 $EndComp
@@ -767,11 +767,11 @@ U 1 1 5CBC8766
 P 6800 1800
 F 0 "C5" H 6915 1846 50  0000 L CNN
 F 1 "1000uF" H 6915 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_10x10.2" H 6800 1800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf" H 6800 1800 50  0001 C CNN
-F 4 "Panasonic" H 6800 1800 50  0001 C CNN "Manufacturer_Name"
-F 5 "EEE-FK1C102SP" H 6800 1800 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-EEE-FK1C102SP" H 6800 1800 50  0001 C CNN "Mouser Part Number"
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 6800 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/293/e-ucm-883824.pdf" H 6800 1800 50  0001 C CNN
+F 4 "Nichicon" H 6800 1800 50  0001 C CNN "Manufacturer_Name"
+F 5 "UCM1C102MNL1GS" H 6800 1800 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "647-UCM1C102MNL1GS" H 6800 1800 50  0001 C CNN "Mouser Part Number"
 	1    6800 1800
 	1    0    0    -1  
 $EndComp
@@ -781,11 +781,11 @@ U 1 1 5CBCC2FF
 P 10950 1750
 F 0 "C13" H 11065 1796 50  0000 L CNN
 F 1 "10uF" H 11065 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_4x5.4" H 10950 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 10950 1750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf" H 10950 1750 50  0001 C CNN
-F 4 "Panasonic" H 10950 1750 50  0001 C CNN "Manufacturer_Name"
-F 5 "EEE-1CA100SR" H 10950 1750 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-EEE-1CA100SR" H 10950 1750 50  0001 C CNN "Mouser Part Number"
+F 4 "Nichicon" H 10950 1750 50  0001 C CNN "Manufacturer_Name"
+F 5 "UWX1C100MCL1GB" H 10950 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "647-UWX1C100MCL1" H 10950 1750 50  0001 C CNN "Mouser Part Number"
 	1    10950 1750
 	1    0    0    -1  
 $EndComp
@@ -795,11 +795,11 @@ U 1 1 5CBCC3D9
 P 10850 2950
 F 0 "C14" H 10965 2996 50  0000 L CNN
 F 1 "470uF" H 10965 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 10850 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 10850 2950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf" H 10850 2950 50  0001 C CNN
-F 4 "Panasonic" H 10850 2950 50  0001 C CNN "Manufacturer_Name"
-F 5 "EEE-FK1C471P" H 10850 2950 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-EEE-FK1C471P" H 10850 2950 50  0001 C CNN "Mouser Part Number"
+F 4 "Nichicon" H 10850 2950 50  0001 C CNN "Manufacturer_Name"
+F 5 "UWT1C471MNL1GS" H 10850 2950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "647-UWT1C471MNL1S" H 10850 2950 50  0001 C CNN "Mouser Part Number"
 	1    10850 2950
 	1    0    0    -1  
 $EndComp
@@ -809,11 +809,11 @@ U 1 1 5CBCC4CB
 P 10850 4250
 F 0 "C12" H 10965 4296 50  0000 L CNN
 F 1 "470uF" H 10965 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 10850 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 10850 4250 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf" H 10850 4250 50  0001 C CNN
-F 4 "Panasonic" H 10850 4250 50  0001 C CNN "Manufacturer_Name"
-F 5 "EEE-FK1C471P" H 10850 4250 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "667-EEE-FK1C471P" H 10850 4250 50  0001 C CNN "Mouser Part Number"
+F 4 "Nichicon" H 10850 4250 50  0001 C CNN "Manufacturer_Name"
+F 5 "UWT1C471MNL1GS" H 10850 4250 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "647-UWT1C471MNL1S" H 10850 4250 50  0001 C CNN "Mouser Part Number"
 	1    10850 4250
 	1    0    0    -1  
 $EndComp
