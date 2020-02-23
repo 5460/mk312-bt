@@ -770,24 +770,8 @@ F 6 "667-EEE-FK1C471P" H 10850 4250 50  0001 C CNN "Mouser Part Number"
 	1    10850 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse F1
-U 1 1 5CBCDB93
-P 7200 2450
-F 0 "F1" H 7288 2496 50  0000 L CNN
-F 1 "1A Polyfuse" H 7288 2405 50  0000 L CNN
-F 2 "Fuse:Fuse_2920_7451Metric" H 7250 2250 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/643/0ZCF_Nov2016-1133542.pdf" H 7200 2450 50  0001 C CNN
-F 4 "Bel Fuse" H 7200 2450 50  0001 C CNN "Manufacturer_Name"
-F 5 "0ZCF0100AF2A" H 7200 2450 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "530-0ZCF0100AF2A" H 7200 2450 50  0001 C CNN "Mouser Part Number"
-	1    7200 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 1500 7200 1500
-Wire Wire Line
-	7200 2300 7200 1500
 Connection ~ 7200 1500
 Wire Wire Line
 	7200 1500 7600 1500
@@ -1571,14 +1555,12 @@ Wire Wire Line
 Wire Wire Line
 	4700 3050 7200 3050
 Wire Wire Line
-	7200 3050 7200 2600
-Wire Wire Line
 	4700 3050 4700 4750
 $Comp
-L Device:R_US R?
+L Device:R_US R73
 U 1 1 5D781705
 P 7750 7450
-F 0 "R?" V 7545 7450 50  0000 C CNN
+F 0 "R73" V 7545 7450 50  0000 C CNN
 F 1 "0.2R 2W" V 7636 7450 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 7790 7440 50  0001 C CNN
 F 3 "~" H 7750 7450 50  0001 C CNN
@@ -1593,4 +1575,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 7450 6350 7450
 Connection ~ 6350 7450
+Wire Wire Line
+	7200 1500 7200 3050
 $EndSCHEMATC

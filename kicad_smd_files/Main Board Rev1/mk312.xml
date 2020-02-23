@@ -1,0 +1,4420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:\mk312-bt-fork\kicad_smd_files\Main Board Rev1\mk312.sch</source>
+    <date>8/21/2019 10:42:25 PM</date>
+    <tool>Eeschema (5.1.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mk312.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PSU/" tstamps="/5CB40B9E/">
+      <title_block>
+        <title>PSU</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-05-17</date>
+        <source>PSU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MK312B MCU/" tstamps="/5CB40F50/">
+      <title_block>
+        <title>MK312B MCU</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-05-17</date>
+        <source>MK312B_MCU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Panel Circuit/" tstamps="/5CB412A8/">
+      <title_block>
+        <title>Panel Circuit</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-05-17</date>
+        <source>Panel_Circuit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Input stage/" tstamps="/5CB41777/">
+      <title_block>
+        <title>Input Stage</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-05-17</date>
+        <source>Input_stage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Output stage/" tstamps="/5CB41D9F/">
+      <title_block>
+        <title>Output stage</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-05-17</date>
+        <source>Output_stage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>110</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1100V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1100V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>49F62BA8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>FE226B75</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>88676885</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>C8DDE19D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>F5E906B6</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>6EEB2871</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5487FD53</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>415E56D5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>69A086C3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>15A508F3</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>L7805CV</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/l78-974043.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/stmicroelectronics-l7805abd2t-tr/70407657/</field>
+        <field name="Allied_Number">70407657</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L7805CV</field>
+        <field name="Mouser Part Number">511-L7805CV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7805ABD2T-TR</field>
+        <field name="RS Part Number">7931342P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7931342P</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CB7C0AA</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>L7809ABV</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/l78-974043.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L7809ABV</field>
+        <field name="Mouser Part Number">511-L7809ABV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7809ABD2T-TR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7809" description="Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CB7C1EF</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>L7809ABV</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/l78-974043.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L7809ABV</field>
+        <field name="Mouser Part Number">511-L7809ABV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-L7809ABD2T-TR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7809" description="Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CB7C3E1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GF1G-E3/67A</value>
+      <footprint>mk312-smd-footprints:DO-214BA</footprint>
+      <datasheet>http://www.rectron.com/public/product_datasheets/fm4001w-fm4007w.pdf</datasheet>
+      <fields>
+        <field name="Description">Rectifiers 1A, 400V</field>
+        <field name="Height">2.31</field>
+        <field name="Manufacturer_Name">Rectron</field>
+        <field name="Manufacturer_Part_Number">FM4004W-W</field>
+        <field name="Mouser Part Number">583-FM4004W-W</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=583-FM4004W-W</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBCEE77</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>GF1G-E3/67A</value>
+      <footprint>mk312-smd-footprints:DO-214BA</footprint>
+      <datasheet>http://www.rectron.com/public/product_datasheets/fm4001w-fm4007w.pdf</datasheet>
+      <fields>
+        <field name="Description">Rectifiers 1A, 400V</field>
+        <field name="Height">2.31</field>
+        <field name="Manufacturer_Name">Rectron</field>
+        <field name="Manufacturer_Part_Number">FM4004W-W</field>
+        <field name="Mouser Part Number">583-FM4004W-W</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=583-FM4004W-W</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBD152F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_MountingPin</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/pj-002a-1312176.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">PJ-002A</field>
+        <field name="Mouser Part Number">490-PJ-002A</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBC737B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-HC1C101XP</field>
+        <field name="Mouser Part Number">667-EEE-HC1C101XP</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBC86C0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-HC1C101XP</field>
+        <field name="Mouser Part Number">667-EEE-HC1C101XP</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBC8766</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.8</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-FK1C100R</field>
+        <field name="Mouser Part Number">667-EEE-FK1C100R</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBCC2FF</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_8x10.2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-FK1C471P</field>
+        <field name="Mouser Part Number">667-EEE-FK1C471P</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBCC3D9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_8x10.2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEE-FK1C471P</field>
+        <field name="Mouser Part Number">667-EEE-FK1C471P</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CBCC4CB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Name">Taiyo Yuden</field>
+        <field name="Manufacturer_Part_Number">TMK212BBJ106MG-T</field>
+        <field name="Mouser Part Number">963-TMK212BBJ106MG-T</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D39105D</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>+5V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/NG_CD_146285_J-649398.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">5-146285-2</field>
+        <field name="Mouser Part Number">571-5-146285-2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5DFB4E96</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>POWER</value>
+      <footprint>mk312-smd-footprints:E-Switch_M7_SPDT</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/140/100-1079940.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">100SP1T2B4M7RE</field>
+        <field name="Mouser Part Number">612-100-A2472</field>
+      </fields>
+      <libsource lib="mk312" part="SW_SPDT_POWER" description="Switch, single pole double throw"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5DFCEBD8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>+12V Battery</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5DFE01AE</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CE6475E</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CE652E1</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LMS8117ADTX-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/lms8117a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LMS8117ADTX-ADJ</field>
+        <field name="Mouser Part Number">926-LS8117ADTXADJNPB</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="NCP1117-ADJ_TO252" description="1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5CE58BCB</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>S-8254A</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/360/S8254A_E-1365929.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">ABLIC</field>
+        <field name="Manufacturer_Part_Number">S-8254AAMFT-TB-U</field>
+        <field name="Mouser Part Number">628-S-8254AAMFT-TB-G</field>
+      </fields>
+      <libsource lib="estim_parts" part="S-8254A" description="BATTERY PROTECTION IC FOR 3-SERIAL- OR 4-SERIAL-CELL PACK"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3CBD14</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>SI4435FDY-T1-GE3</value>
+      <footprint>mk312-smd-footprints:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.vishay.com/docs/75339/si4435fdy.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET -30V Vds 20V Vgs SO-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SI4435FDY-T1-GE3</field>
+        <field name="Mouser Part Number">78-SI4435FDY-T1-GE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=78-SI4435FDY-T1-GE3</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SI4435FDY-T1-GE3" description="MOSFET -30V Vds 20V Vgs SO-8"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3CDC12</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>SI4435FDY-T1-GE3</value>
+      <footprint>mk312-smd-footprints:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.vishay.com/docs/75339/si4435fdy.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET -30V Vds 20V Vgs SO-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SI4435FDY-T1-GE3</field>
+        <field name="Mouser Part Number">78-SI4435FDY-T1-GE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=78-SI4435FDY-T1-GE3</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SI4435FDY-T1-GE3" description="MOSFET -30V Vds 20V Vgs SO-8"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D0552</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D1F2C</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D34BA</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D3F5F</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D4DE1</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D5CCE</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D8103</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3D9509</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DA1C8</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DAFFA</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DB82B</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DBE44</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-075K1L</field>
+        <field name="Mouser Part Number">603-RC0603FR-075K1L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DD5E6</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-075K1L</field>
+        <field name="Mouser Part Number">603-RC0603FR-075K1L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3DF352</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1004V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1004V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3E04BE</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0751RL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0751RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3E1E23</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">C0603C225K4PACTU</field>
+        <field name="Mouser Part Number">80-C0603C225K4P</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3E2B5D</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D3E5271</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>0.2R 2W</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">RCWE2512R200FKEA</field>
+        <field name="Mouser Part Number">71-RCWE2512R200FKEA</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/PSU/" tstamps="/5CB40B9E/"/>
+      <tstamp>5D781705</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>5E3BF956</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>0D06550A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F3301V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F3301V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>F7FD3D77</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>40871C63</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>8.0 MHz</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/741/LFXTAL020423Reel-940439.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">IQD</field>
+        <field name="Manufacturer_Part_Number">LFXTAL020423Reel</field>
+        <field name="Mouser Part Number">449-LFXTAL020423REEL</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>71E014D0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM1555C1H180FA16J</field>
+        <field name="Mouser Part Number">81-GCM1555C1H180FA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>367BE0C9</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/GCM1555C1H180FA16-01-1064431.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM1555C1H180FA16J</field>
+        <field name="Mouser Part Number">81-GCM1555C1H180FA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>ADC94B29</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>9D5497DE</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>46EAFDFE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega16-16AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Atmel</field>
+        <field name="Manufacturer_Part_Number">ATMEGA16-16AU</field>
+        <field name="Mouser Part Number">556-ATMEGA16-16AU</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega16-16AU" description="16MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>5CBE8E18</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/NG_CD_103328_P5-1229876.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">TE Connectivity / AMP</field>
+        <field name="Manufacturer_Part_Number">4-103328-2</field>
+        <field name="Mouser Part Number">571-4-103328-2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>5CCA8011</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x24_Male</value>
+      <footprint>mk312-smd-footprints:HFW24S-2STE1LF</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/18/hfw_s-2ste1lf-1365432.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Amphenol FCI</field>
+        <field name="Manufacturer_Part_Number">HFW24S-2STE1LF</field>
+        <field name="Mouser Part Number">649-HFW24S-2STE1LF</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x24_Male" description="Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MK312B MCU/" tstamps="/5CB40F50/"/>
+      <tstamp>5CE0646D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07130RL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07130RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>BCDF5D1A</tstamp>
+    </comp>
+    <comp ref="VR4">
+      <value>LCD CONTRAST</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/c33-778219.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">TC33X-2-103E</field>
+        <field name="Mouser Part Number">652-TC33X-2-103E</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_TRIM_US" description="Trim-potentiometer, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>AEDBA381</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F3900V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F3900V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>D91538FF</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F3900V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F3900V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>F12CABB7</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>43BA316E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F3900V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F3900V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>867FC228</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/115/ds30036-41708.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">MMBT3904-7-F</field>
+        <field name="Mouser Part Number">621-MMBT3904-F</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>6A33A87D</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/115/ds30036-41708.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">MMBT3904-7-F</field>
+        <field name="Mouser Part Number">621-MMBT3904-F</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>2D2CC871</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1501V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1501V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>326F79C8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1501V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1501V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>EB1BE326</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F3900V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F3900V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>88B124BF</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>LEFT/DOWN</value>
+      <footprint>mk312-smd-footprints:E-Switch_Tactile_TL1105</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF2051</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>OK</value>
+      <footprint>mk312-smd-footprints:E-Switch_Tactile_TL1105</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF218F</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>RIGHT/UP</value>
+      <footprint>mk312-smd-footprints:E-Switch_Tactile_TL1105</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF23E7</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>MENU</value>
+      <footprint>mk312-smd-footprints:E-Switch_Tactile_TL1105</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/140/XP0214A-1511152.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">TL1105SPF160Q</field>
+        <field name="Mouser Part Number">612-TL1105SP</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF2477</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>POWER</value>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cree</field>
+        <field name="Manufacturer_Part_Number">CLM2D-BPC-CWBYA453</field>
+        <field name="Mouser Part Number">941-CLM2DBPCCWBYA453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF5BE5</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>OUTPUT B</value>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cree</field>
+        <field name="Manufacturer_Part_Number">CLM2D-BPC-CWBYA453</field>
+        <field name="Mouser Part Number">941-CLM2DBPCCWBYA453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF5CAD</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>OUTPUT A</value>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cree</field>
+        <field name="Manufacturer_Part_Number">CLM2D-BPC-CWBYA453</field>
+        <field name="Mouser Part Number">941-CLM2DBPCCWBYA453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF5D17</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>STATE</value>
+      <footprint>mk312-smd-footprints:LED_Cree-PLCC4_3.2x2.8mm_CCW</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/90/1410-CLM2D-GPC-BPC-1275496.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cree</field>
+        <field name="Manufacturer_Part_Number">CLM2D-BPC-CWBYA453</field>
+        <field name="Mouser Part Number">941-CLM2DBPCCWBYA453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CBF5D7F</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x24_Male</value>
+      <footprint>mk312-smd-footprints:HFW24S-2STE1LF</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/18/hfw_s-2ste1lf-1365432.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Amphenol FCI</field>
+        <field name="Manufacturer_Part_Number">HFW24S-2STE1LF</field>
+        <field name="Mouser Part Number">649-HFW24S-2STE1LF</field>
+      </fields>
+      <libsource lib="mk312" part="Conn_01x24_Male_Power" description="Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CE474E7</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CD4066B</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4066b.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4066BM96</field>
+        <field name="Mouser Part Number">595-CD4066BM96</field>
+      </fields>
+      <libsource lib="4xxx" part="4066" description="Quad Analog Switches"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEF4C89</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>MULTI-ADJ</value>
+      <footprint>mk312-smd-footprints:Potentiometer_Alps_RK09K_Dual_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Alps</field>
+        <field name="Manufacturer_Part_Number">RK09K12C0A8K</field>
+        <field name="Mouser Part Number">688-RK09K12C0A8K</field>
+      </fields>
+      <libsource lib="mk312" part="R_POT_DUAL_CHASSIS_US" description="Dual Potentiometer w/Chassis, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5E04CE24</tstamp>
+    </comp>
+    <comp ref="VR2">
+      <value>LEVEL A</value>
+      <footprint>mk312-smd-footprints:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Alps</field>
+        <field name="Manufacturer_Part_Number">RK09D1130A1N</field>
+        <field name="Mouser Part Number">688-RK09D1130A1N</field>
+      </fields>
+      <libsource lib="mk312" part="R_POT_CHASSIS_US" description="Potentiometer w/Chassis, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5E04D3E7</tstamp>
+    </comp>
+    <comp ref="VR3">
+      <value>LEVEL B</value>
+      <footprint>mk312-smd-footprints:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Alps</field>
+        <field name="Manufacturer_Part_Number">RK09D1130A1N</field>
+        <field name="Mouser Part Number">688-RK09D1130A1N</field>
+      </fields>
+      <libsource lib="mk312" part="R_POT_CHASSIS_US" description="Potentiometer w/Chassis, US symbol"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5E04D4B8</tstamp>
+    </comp>
+    <comp ref="LCD1">
+      <value>NHD-C0216AZ-FSW-GBW</value>
+      <footprint>mk312-smd-footprints:NHD-C0216AZ-FSW-GBW</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/291/NHD-C0216AZ-FSW-GBW-31543.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Newhaven Display</field>
+        <field name="Manufacturer_Part_Number">NHD-C0216AZ-FSW-GBW</field>
+        <field name="Mouser Part Number">763-C0216AZ-FSW-GBW</field>
+      </fields>
+      <libsource lib="mk312" part="NHD-C0216AZ-FSW-GBW" description=""/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CE52E94</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE5BA9</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE6361</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE6B7B</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE7D02</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE88CE</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Panel Circuit/" tstamps="/5CB412A8/"/>
+      <tstamp>5CEE92E9</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>99921958</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2D87629A</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>52E45D21</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2A494DBC</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>CD3A0C2C</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1004V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1004V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>C1CACB3A</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>1B6E697B</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1004V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1004V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>52DE03FE</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>A11CAFCD</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1004V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1004V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>53528C6A</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>9FEA229A</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>AB5F11BD</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>372F4F48</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DAA00E6</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2201V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2201V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2172FC05</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2201V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2201V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>FC3F3F5C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2890C4D1</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>35223906</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1004V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1004V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>F22699AC</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>8AA56E7B</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>B61CC9C1</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>100688BF</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>0A3E545C</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>9FFCDEC1</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>F0C750B7</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>9830D053</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>101F579F</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM1555C1H102JA16J</field>
+        <field name="Mouser Part Number">81-GCM1555C1H102JA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>3E987EDF</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>D13A0366</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>C6E2BBCD</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F4701V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F4701V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>94306110</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>6112423A</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>3608E24B</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>195B5124</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>534E3B97</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM1555C1H102JA16J</field>
+        <field name="Mouser Part Number">81-GCM1555C1H102JA6J</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>A89570F0</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>F84F2443</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>0E636C87</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1501V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1501V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2BB405CC</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>00D0D543</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F4701V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F4701V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>E04A4A7F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>0C42FBA6</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>E6D234CC</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GRM155R61C105MA12D</field>
+        <field name="Mouser Part Number">81-GRM155R61C105MA2D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>2389E40F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>066BFABA</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1001V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>029A508F</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>AUX LINE IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/NG_CD_146285_J-649398.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">5-146285-2</field>
+        <field name="Mouser Part Number">571-5-146285-2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>F09214D2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>RADIO INTERFACE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/527/slw-1370256.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Samtec</field>
+        <field name="Manufacturer_Part_Number">SLW-106-01-G-S</field>
+        <field name="Mouser Part Number">200-SLW10601GS</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5CBDFCE4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W-E3-08</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/1n4148w-240387.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">1N4148W-E3-08</field>
+        <field name="Mouser Part Number">78-1N4148W-E3-08</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5CBE1D15</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W-E3-08</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/1n4148w-240387.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">1N4148W-E3-08</field>
+        <field name="Mouser Part Number">78-1N4148W-E3-08</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5CBE3CAA</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM324N</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm324.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM324DR</field>
+        <field name="Mouser Part Number">595-LM324DR</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DA4E1A2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SP232E</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/146/SP202E-SP232E-SP233E-SP310E-SP312E-536253.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">MaxLinear</field>
+        <field name="Manufacturer_Part_Number">SP232EEN-L/TR</field>
+        <field name="Mouser Part Number">701-SP232EEN-L/TR</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX232" description="Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DBB9037</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>LINK INPUT</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DD38C55</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>REMOTE INPUT</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DD808F5</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>LINE INPUT</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DE05CD4</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>MIC INPUT</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5DE55003</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP6L01U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/268/22140a-71218.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP6L01UT-E/OT</field>
+        <field name="Mouser Part Number">579-MCP6L01UT-E/OT</field>
+      </fields>
+      <libsource lib="estim_parts" part="MCP6L01U" description="1 MHz, 85 μA Op Amps, SOT-23-5"/>
+      <sheetpath names="/Input stage/" tstamps="/5CB41777/"/>
+      <tstamp>5CFD79DC</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>B2B32A33</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>BB17C113</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>237CAF77</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>8DCD183A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFR9024NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFR9024NTRPBF</field>
+        <field name="Mouser Part Number">942-IRFR9024NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRL520N" description="MOSFET MOSFT 10A 13.3nC 180mOhm LogLvAB"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>4F009C7F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRFR9024NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFR9024NTRPBF</field>
+        <field name="Mouser Part Number">942-IRFR9024NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRL520N" description="MOSFET MOSFT 10A 13.3nC 180mOhm LogLvAB"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>91F1D459</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>B4EEBECC</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRLR120NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irlr120npbf-1228003.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLR120NTRPBF</field>
+        <field name="Mouser Part Number">942-IRLR120NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRF9Z24N" description="MOSFET MOSFT PCh -55V -12A 175mOhm 12.7nC"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>E26DE37C</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>61F5B2C9</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>A720CD07</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>A6AB6979</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5E5A9399</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>4CF6D671</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>42319B28</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>618D36A0</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>19AB9E8C</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>CD91161D</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>6E098FD2</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFR9024NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFR9024NTRPBF</field>
+        <field name="Mouser Part Number">942-IRFR9024NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRL520N" description="MOSFET MOSFT 10A 13.3nC 180mOhm LogLvAB"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>4FF9B51F</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>IRFR9024NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irfr9024npbf-1228513.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFR9024NTRPBF</field>
+        <field name="Mouser Part Number">942-IRFR9024NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRL520N" description="MOSFET MOSFT 10A 13.3nC 180mOhm LogLvAB"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>CE8964FE</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1002V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>622F5B9D</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>IRLR120NTRPBF</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/196/irlr120npbf-1228003.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLR120NTRPBF</field>
+        <field name="Mouser Part Number">942-IRLR120NTRPBF</field>
+      </fields>
+      <libsource lib="mk312" part="IRF9Z24N" description="MOSFET MOSFT PCh -55V -12A 175mOhm 12.7nC"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>EF13FC82</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>A5EECC26</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>8641B85D</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>AE58A4A1</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>396C9CE6</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>200K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F2003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F2003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>3598AB8B</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>634356E1</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>2058E1E4</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>0.5R 1/2W</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/wsl-9-1128311.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">WSL2010R5000FEA</field>
+        <field name="Mouser Part Number">71-WSL2010R5000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>2A7885F2</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERJ-PA3F1003V</field>
+        <field name="Mouser Part Number">667-ERJ-PA3F1003V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>119E3335</tstamp>
+    </comp>
+    <comp ref="TR1">
+      <value>42TL004</value>
+      <footprint>mk312-smd-footprints:42TL</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/449/Yuetone_XC-600127-1212403.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Xicon</field>
+        <field name="Manufacturer_Part_Number">42TL004-RC</field>
+        <field name="Mouser Part Number">42TL004-RC</field>
+      </fields>
+      <libsource lib="mk312" part="42TL004" description="42TL004"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>1B898B4F</tstamp>
+    </comp>
+    <comp ref="TR2">
+      <value>42TL004</value>
+      <footprint>mk312-smd-footprints:42TL</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/449/Yuetone_XC-600127-1212403.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Xicon</field>
+        <field name="Manufacturer_Part_Number">42TL004-RC</field>
+        <field name="Mouser Part Number">42TL004-RC</field>
+      </fields>
+      <libsource lib="mk312" part="42TL004" description="42TL004"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>B6FE9F4B</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>1703D5AC</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Murata</field>
+        <field name="Manufacturer_Part_Number">GCM155R71C104JA55D</field>
+        <field name="Mouser Part Number">81-GCM155R71C104JA5D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>BBBA4B67</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>A RING</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/NG_CD_146285_J-649398.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">5-146285-2</field>
+        <field name="Mouser Part Number">571-5-146285-2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5CBC313B</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>B RING</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/NG_CD_146285_J-649398.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">5-146285-2</field>
+        <field name="Mouser Part Number">571-5-146285-2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5CBC3306</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LM358N</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm358a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM358ADR</field>
+        <field name="Mouser Part Number">595-LM358ADR</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5DB2E737</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LTC1661</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/1661fb.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Analog Devices Inc.</field>
+        <field name="Manufacturer_Part_Number">LTC1661CMS8#PBF</field>
+        <field name="Mouser Part Number">584-LTC1661CMS8#PBF</field>
+        <field name="Notes">This chip is expensive nearly $4 a piece, could be an alternate DAC</field>
+      </fields>
+      <libsource lib="mk312" part="LTC1661" description="LTC1661 DAC"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5DB46ABD</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>OUTPUT B</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5DEA8637</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>OUTPUT A</value>
+      <footprint>mk312-smd-footprints:SJ13515SMTTR</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/sj1-351x-smt_series-1312823.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">CUI</field>
+        <field name="Manufacturer_Part_Number">SJ1-3515-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ1-3515-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <sheetpath names="/Output stage/" tstamps="/5CB41D9F/"/>
+      <tstamp>5DF8D987</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4016">
+      <aliases>
+        <alias>4066</alias>
+      </aliases>
+      <description>Quad Analog Switches</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4016b.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4016</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack3_SwitchTR">
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3_SwitchTR</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="RN" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x24_Male">
+      <description>Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM_US">
+      <description>Trim-potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX232">
+      <aliases>
+        <alias>MAX232I</alias>
+        <alias>MAX202</alias>
+        <alias>ADM232A</alias>
+        <alias>MAX3232</alias>
+        <alias>ICL3232</alias>
+      </aliases>
+      <description>Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C</description>
+      <docs>http://www.ti.com/lit/ds/symlink/max232.pdf</docs>
+      <footprints>
+        <fp>SOIC*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX232</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="passive"/>
+        <pin num="2" name="VS+" type="power_out"/>
+        <pin num="3" name="C1-" type="passive"/>
+        <pin num="4" name="C2+" type="passive"/>
+        <pin num="5" name="C2-" type="passive"/>
+        <pin num="6" name="VS-" type="power_out"/>
+        <pin num="7" name="T2OUT" type="output"/>
+        <pin num="8" name="R2IN" type="input"/>
+        <pin num="9" name="R2OUT" type="output"/>
+        <pin num="10" name="T2IN" type="input"/>
+        <pin num="11" name="T1IN" type="input"/>
+        <pin num="12" name="R1OUT" type="output"/>
+        <pin num="13" name="R1IN" type="input"/>
+        <pin num="14" name="T1OUT" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16L-8AU">
+      <aliases>
+        <alias>ATmega16-16AU</alias>
+        <alias>ATmega16A-AU</alias>
+        <alias>ATmega32L-8AU</alias>
+        <alias>ATmega32-16AU</alias>
+        <alias>ATmega32A-AU</alias>
+      </aliases>
+      <description>8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16L-8AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5" type="3state"/>
+        <pin num="2" name="PB6" type="3state"/>
+        <pin num="3" name="PB7" type="3state"/>
+        <pin num="4" name="~RESET" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="output"/>
+        <pin num="8" name="XTAL1" type="input"/>
+        <pin num="9" name="PD0" type="3state"/>
+        <pin num="10" name="PD1" type="3state"/>
+        <pin num="11" name="PD2" type="3state"/>
+        <pin num="12" name="PD3" type="3state"/>
+        <pin num="13" name="PD4" type="3state"/>
+        <pin num="14" name="PD5" type="3state"/>
+        <pin num="15" name="PD6" type="3state"/>
+        <pin num="16" name="PD7" type="3state"/>
+        <pin num="17" name="VCC" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="PC0" type="3state"/>
+        <pin num="20" name="PC1" type="3state"/>
+        <pin num="21" name="PC2" type="3state"/>
+        <pin num="22" name="PC3" type="3state"/>
+        <pin num="23" name="PC4" type="3state"/>
+        <pin num="24" name="PC5" type="3state"/>
+        <pin num="25" name="PC6" type="3state"/>
+        <pin num="26" name="PC7" type="3state"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="AREF" type="passive"/>
+        <pin num="30" name="PA7" type="3state"/>
+        <pin num="31" name="PA6" type="3state"/>
+        <pin num="32" name="PA5" type="3state"/>
+        <pin num="33" name="PA4" type="3state"/>
+        <pin num="34" name="PA3" type="3state"/>
+        <pin num="35" name="PA2" type="3state"/>
+        <pin num="36" name="PA1" type="3state"/>
+        <pin num="37" name="PA0" type="3state"/>
+        <pin num="38" name="VCC" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="PB0" type="3state"/>
+        <pin num="41" name="PB1" type="3state"/>
+        <pin num="42" name="PB2" type="3state"/>
+        <pin num="43" name="PB3" type="3state"/>
+        <pin num="44" name="PB4" type="3state"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-ADJ_TO252">
+      <description>1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-ADJ_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SI4435FDY-T1-GE3">
+      <description>MOSFET -30V Vds 20V Vgs SO-8</description>
+      <docs>http://www.vishay.com/docs/75339/si4435fdy.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SI4435FDY-T1-GE3</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/75339/si4435fdy.pdf</field>
+        <field name="Description">MOSFET -30V Vds 20V Vgs SO-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">SI4435FDY-T1-GE3</field>
+        <field name="Mouser Part Number">78-SI4435FDY-T1-GE3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=78-SI4435FDY-T1-GE3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="BiDi"/>
+        <pin num="2" name="S_2" type="BiDi"/>
+        <pin num="3" name="S_3" type="BiDi"/>
+        <pin num="4" name="G" type="BiDi"/>
+        <pin num="5" name="D_1" type="BiDi"/>
+        <pin num="6" name="D_2" type="BiDi"/>
+        <pin num="7" name="D_3" type="BiDi"/>
+        <pin num="8" name="D_4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="estim_parts" part="MCP6L01U">
+      <description>1 MHz, 85 μA Op Amps, SOT-23-5</description>
+      <docs>https://www.mouser.com/datasheet/2/268/22140a-71218.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6L01U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="estim_parts" part="S-8254A">
+      <description>BATTERY PROTECTION IC FOR 3-SERIAL- OR 4-SERIAL-CELL PACK</description>
+      <docs>https://www.mouser.com/datasheet/2/360/S8254A_E-1365929.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">S-8254A</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COP" type="passive"/>
+        <pin num="2" name="VMP" type="passive"/>
+        <pin num="3" name="DOP" type="passive"/>
+        <pin num="4" name="VINI" type="passive"/>
+        <pin num="5" name="CDT" type="passive"/>
+        <pin num="6" name="CCT" type="passive"/>
+        <pin num="7" name="VSS" type="passive"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="SEL" type="passive"/>
+        <pin num="11" name="CTL" type="passive"/>
+        <pin num="12" name="VC4" type="passive"/>
+        <pin num="13" name="VC3" type="passive"/>
+        <pin num="14" name="VC2" type="passive"/>
+        <pin num="15" name="VC1" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="42TL004">
+      <description>42TL004</description>
+      <docs>https://www.mouser.com/datasheet/2/449/Yuetone_XC-600127-1212403.pdf</docs>
+      <footprints>
+        <fp>42TL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">42TL004</field>
+        <field name="Footprint">KiCadLib:42TL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="Conn_01x24_Male_Power">
+      <description>Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x24_Male_Power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="power_out"/>
+        <pin num="21" name="Pin_21" type="power_out"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="IRF9Z24N">
+      <description>MOSFET MOSFT PCh -55V -12A 175mOhm 12.7nC</description>
+      <docs>https://www.mouser.com/datasheet/2/196/irf9z24npbf-1227242.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF9Z24N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="IRL520N">
+      <description>MOSFET MOSFT 10A 13.3nC 180mOhm LogLvAB</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irl520n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRL520N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="LTC1661">
+      <description>LTC1661 DAC</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/1661fb.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC1661</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="REF" type="input"/>
+        <pin num="5" name="VOUT_B" type="power_out"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="VOUT_A" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="NHD-C0216AZ-FSW-GBW">
+      <docs>https://www.mouser.com/datasheet/2/291/NHD-C0216AZ-FSW-GBW-31543.pdf</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">NHD-C0216AZ-FSW-GBW</field>
+        <field name="Footprint">mk312-smd-footprints:NHD-C0216AZ-FSW-GBW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VO" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="RW" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="D0" type="BiDi"/>
+        <pin num="8" name="D1" type="BiDi"/>
+        <pin num="9" name="D2" type="BiDi"/>
+        <pin num="10" name="D3" type="BiDi"/>
+        <pin num="11" name="D4" type="BiDi"/>
+        <pin num="12" name="D5" type="BiDi"/>
+        <pin num="13" name="D6" type="BiDi"/>
+        <pin num="14" name="D7" type="BiDi"/>
+        <pin num="A" name="A" type="input"/>
+        <pin num="K" name="K" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="R_POT_CHASSIS_US">
+      <description>Potentiometer w/Chassis, US symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">R_POT_CHASSIS_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="R_POT_DUAL_CHASSIS_US">
+      <description>Dual Potentiometer w/Chassis, US symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">R_POT_DUAL_CHASSIS_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="5" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mk312" part="SW_SPDT_POWER">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_POWER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="power_out"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/4xxx.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_UART.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/raster/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="estim_parts">
+      <uri>F:/tens/estim_breakout/estim_parts.lib</uri>
+    </library>
+    <library logical="mk312">
+      <uri>F:/mk312/mk312.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R63-Pad2)">
+      <node ref="R63" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R66-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="R66" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C47-Pad2)">
+      <node ref="R69" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="4" name="Net-(C46-Pad2)">
+      <node ref="U5" pin="15"/>
+      <node ref="C46" pin="2"/>
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J13-Pad3)">
+      <node ref="J13" pin="3"/>
+      <node ref="R70" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J13-Pad2)">
+      <node ref="R69" pin="1"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C48-Pad2)">
+      <node ref="U5" pin="13"/>
+      <node ref="R70" pin="2"/>
+      <node ref="C48" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C41-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R71-Pad2)">
+      <node ref="R71" pin="2"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="10" name="Net-(IC5-Pad4)">
+      <node ref="IC5" pin="4"/>
+      <node ref="R65" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="12" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="13" name="Net-(C45-Pad1)">
+      <node ref="C45" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="14" name="Net-(R64-Pad2)">
+      <node ref="U5" pin="4"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="16" name="Net-(IC6-Pad4)">
+      <node ref="R66" pin="1"/>
+      <node ref="IC6" pin="4"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="IC2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J6" pin="S"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J5" pin="S"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J8" pin="S"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="J7" pin="S"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J11" pin="24"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J11" pin="21"/>
+      <node ref="U1" pin="28"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J11" pin="23"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="39"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="18"/>
+      <node ref="J11" pin="22"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="U6" pin="11"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R50" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="18" name="Net-(IC5-Pad5)">
+      <node ref="IC5" pin="6"/>
+      <node ref="IC6" pin="8"/>
+      <node ref="IC6" pin="7"/>
+      <node ref="IC6" pin="6"/>
+      <node ref="IC6" pin="5"/>
+      <node ref="IC5" pin="7"/>
+      <node ref="IC5" pin="8"/>
+      <node ref="IC5" pin="5"/>
+    </net>
+    <net code="19" name="Net-(J13-Pad4)">
+      <node ref="R72" pin="1"/>
+      <node ref="J13" pin="4"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C41-Pad2)">
+      <node ref="R72" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="R67" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C45" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C46-Pad1)">
+      <node ref="J13" pin="1"/>
+      <node ref="U5" pin="16"/>
+      <node ref="C48" pin="1"/>
+      <node ref="IC6" pin="1"/>
+      <node ref="R68" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="IC6" pin="3"/>
+      <node ref="IC6" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="22" name="+9V1">
+      <node ref="C14" pin="1"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="C42" pin="1"/>
+    </net>
+    <net code="23" name="+9V2">
+      <node ref="R43" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C44" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="24" name="+12V">
+      <node ref="C7" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="2"/>
+      <node ref="IC5" pin="1"/>
+      <node ref="IC5" pin="3"/>
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="27" name="+5V">
+      <node ref="R49" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="J11" pin="19"/>
+      <node ref="J11" pin="20"/>
+      <node ref="U4" pin="16"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U8" pin="6"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="27"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="29" name="+VDC">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="30" name="PC3">
+      <node ref="U1" pin="22"/>
+      <node ref="J11" pin="8"/>
+    </net>
+    <net code="31" name="PC0">
+      <node ref="U1" pin="19"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="32" name="RB10">
+      <node ref="J11" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="33" name="RB4">
+      <node ref="J11" pin="7"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="34" name="PC2">
+      <node ref="J11" pin="6"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="35" name="PA1">
+      <node ref="U1" pin="36"/>
+      <node ref="C32" pin="1"/>
+      <node ref="J11" pin="5"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="36" name="PC1">
+      <node ref="U1" pin="20"/>
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="37" name="RB9">
+      <node ref="R24" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="38" name="PB6">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="39" name="PB5">
+      <node ref="U1" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="40" name="~RESET">
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="41" name="PB7">
+      <node ref="J3" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="34"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad44)">
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="44" name="Net-(R3-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="45" name="STATE">
+      <node ref="J11" pin="17"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="46" name="PD7">
+      <node ref="J11" pin="18"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="47" name="PC7">
+      <node ref="J11" pin="16"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="48" name="PD5">
+      <node ref="U1" pin="14"/>
+      <node ref="J11" pin="15"/>
+    </net>
+    <net code="49" name="PC6">
+      <node ref="U1" pin="25"/>
+      <node ref="J11" pin="14"/>
+    </net>
+    <net code="50" name="PD6">
+      <node ref="U1" pin="15"/>
+      <node ref="J11" pin="13"/>
+    </net>
+    <net code="51" name="PC5">
+      <node ref="U1" pin="24"/>
+      <node ref="J11" pin="12"/>
+    </net>
+    <net code="52" name="PA5">
+      <node ref="J11" pin="11"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="53" name="PC4">
+      <node ref="J11" pin="10"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="54" name="PA4">
+      <node ref="U1" pin="33"/>
+      <node ref="J11" pin="9"/>
+    </net>
+    <net code="55" name="~CS">
+      <node ref="U1" pin="13"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="56" name="PD3">
+      <node ref="U1" pin="12"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="57" name="PA6">
+      <node ref="R39" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C39" pin="1"/>
+    </net>
+    <net code="58" name="PA7">
+      <node ref="C38" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U1" pin="30"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="XTAL1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="60" name="Net-(C16-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C16" pin="1"/>
+      <node ref="XTAL1" pin="2"/>
+    </net>
+    <net code="61" name="PB0">
+      <node ref="R61" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="62" name="PA0">
+      <node ref="R40" pin="1"/>
+      <node ref="U1" pin="37"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="63" name="PB1">
+      <node ref="U1" pin="41"/>
+      <node ref="R62" pin="2"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="64" name="PD2">
+      <node ref="U6" pin="14"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="65" name="PD1">
+      <node ref="U4" pin="11"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="66" name="PD0">
+      <node ref="U4" pin="12"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="67" name="PB3">
+      <node ref="R60" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="68" name="PB2">
+      <node ref="R59" pin="2"/>
+      <node ref="R53" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="69" name="Net-(LCD1-PadK)">
+      <node ref="LCD1" pin="K"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="70" name="PC0-PANEL">
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="12"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="71" name="Net-(SW5-Pad1)">
+      <node ref="U3" pin="11"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="72" name="Net-(SW4-Pad1)">
+      <node ref="U3" pin="8"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="73" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="74" name="PC6-PANEL">
+      <node ref="U3" pin="9"/>
+      <node ref="J12" pin="14"/>
+      <node ref="LCD1" pin="13"/>
+    </net>
+    <net code="75" name="Net-(SW2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="76" name="PC7-PANEL">
+      <node ref="U3" pin="10"/>
+      <node ref="J12" pin="16"/>
+      <node ref="LCD1" pin="14"/>
+    </net>
+    <net code="77" name="PC5-PANEL">
+      <node ref="U3" pin="3"/>
+      <node ref="J12" pin="12"/>
+      <node ref="LCD1" pin="12"/>
+    </net>
+    <net code="78" name="PC4-PANEL">
+      <node ref="U3" pin="2"/>
+      <node ref="J12" pin="10"/>
+      <node ref="LCD1" pin="11"/>
+    </net>
+    <net code="79" name="Net-(LCD1-Pad7)">
+      <node ref="LCD1" pin="7"/>
+    </net>
+    <net code="80" name="Net-(LCD1-Pad2)">
+      <node ref="VR4" pin="2"/>
+      <node ref="LCD1" pin="2"/>
+    </net>
+    <net code="81" name="Net-(LCD1-Pad10)">
+      <node ref="LCD1" pin="10"/>
+    </net>
+    <net code="82" name="Net-(LCD1-Pad9)">
+      <node ref="LCD1" pin="9"/>
+    </net>
+    <net code="83" name="Net-(LCD1-Pad8)">
+      <node ref="LCD1" pin="8"/>
+    </net>
+    <net code="84" name="PA4-PANEL">
+      <node ref="VR2" pin="2"/>
+      <node ref="J12" pin="9"/>
+    </net>
+    <net code="85" name="PA5-PANEL">
+      <node ref="J12" pin="11"/>
+      <node ref="VR3" pin="2"/>
+    </net>
+    <net code="86" name="PA1-PANEL">
+      <node ref="VR1" pin="2"/>
+      <node ref="J12" pin="5"/>
+    </net>
+    <net code="87" name="RB10-PANEL">
+      <node ref="VR1" pin="3"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="88" name="RB4-PANEL">
+      <node ref="J12" pin="7"/>
+      <node ref="VR1" pin="4"/>
+    </net>
+    <net code="89" name="RB9-PANEL">
+      <node ref="VR1" pin="5"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="90" name="Net-(LCD1-PadA)">
+      <node ref="R11" pin="2"/>
+      <node ref="LCD1" pin="A"/>
+    </net>
+    <net code="91" name="PC2-PANEL">
+      <node ref="J12" pin="6"/>
+      <node ref="LCD1" pin="6"/>
+    </net>
+    <net code="92" name="PC1-PANEL">
+      <node ref="J12" pin="4"/>
+      <node ref="LCD1" pin="5"/>
+    </net>
+    <net code="93" name="PC3-PANEL">
+      <node ref="LCD1" pin="4"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="94" name="Net-(LED2-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="95" name="Net-(LED3-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="96" name="Net-(LED4-Pad1)">
+      <node ref="LED4" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="97" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="98" name="Net-(Q1-Pad3)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="99" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="100" name="PD7-PANEL">
+      <node ref="R12" pin="1"/>
+      <node ref="J12" pin="18"/>
+    </net>
+    <net code="101" name="PD5-PANEL">
+      <node ref="LED2" pin="1"/>
+      <node ref="J12" pin="15"/>
+    </net>
+    <net code="102" name="STATE-PANEL">
+      <node ref="LED4" pin="2"/>
+      <node ref="J12" pin="17"/>
+    </net>
+    <net code="103" name="PD6-PANEL">
+      <node ref="J12" pin="13"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="104" name="GNDD">
+      <node ref="U3" pin="7"/>
+      <node ref="J12" pin="21"/>
+      <node ref="J12" pin="22"/>
+      <node ref="J12" pin="23"/>
+      <node ref="J12" pin="24"/>
+      <node ref="VR2" pin="1"/>
+      <node ref="VR3" pin="1"/>
+      <node ref="LCD1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="VR4" pin="3"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="VR1" pin="1"/>
+    </net>
+    <net code="105" name="+5VD">
+      <node ref="R13" pin="2"/>
+      <node ref="LCD1" pin="3"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J12" pin="20"/>
+      <node ref="VR2" pin="3"/>
+      <node ref="VR3" pin="3"/>
+      <node ref="J12" pin="19"/>
+      <node ref="R11" pin="1"/>
+      <node ref="VR4" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="106" name="Net-(R32-Pad1)">
+      <node ref="U6" pin="6"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="107" name="Net-(C35-Pad2)">
+      <node ref="R30" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="108" name="Net-(R36-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="109" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J8-PadT)">
+      <node ref="U4" pin="14"/>
+      <node ref="J8" pin="T"/>
+    </net>
+    <net code="111" name="Net-(J8-PadR)">
+      <node ref="J8" pin="R"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="112" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="113" name="Net-(J4-Pad3)">
+      <node ref="U4" pin="10"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="114" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="115" name="Net-(J7-PadT)">
+      <node ref="J7" pin="T"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C36-Pad2)">
+      <node ref="U6" pin="3"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="117" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="118" name="Net-(C23-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="119" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="120" name="Net-(C30-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="121" name="Net-(C21-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="122" name="Net-(J6-PadTN)">
+      <node ref="J6" pin="TN"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="123" name="Net-(J6-PadRN)">
+      <node ref="JP3" pin="4"/>
+      <node ref="J6" pin="RN"/>
+    </net>
+    <net code="124" name="Net-(J6-PadR)">
+      <node ref="J6" pin="R"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="125" name="Net-(J6-PadT)">
+      <node ref="R14" pin="2"/>
+      <node ref="J6" pin="T"/>
+    </net>
+    <net code="126" name="Net-(J5-PadRN)">
+      <node ref="J5" pin="RN"/>
+    </net>
+    <net code="127" name="Net-(J7-PadR)">
+      <node ref="R18" pin="1"/>
+      <node ref="J7" pin="R"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R28-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R27-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="130" name="Net-(C24-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="131" name="Net-(J7-PadTN)">
+      <node ref="J7" pin="TN"/>
+    </net>
+    <net code="132" name="Net-(J7-PadRN)">
+      <node ref="J7" pin="RN"/>
+    </net>
+    <net code="133" name="Net-(J5-PadTN)">
+      <node ref="J5" pin="TN"/>
+    </net>
+    <net code="134" name="Net-(C24-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="J5" pin="R"/>
+      <node ref="J5" pin="T"/>
+    </net>
+    <net code="135" name="Net-(C29-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="136" name="Net-(R26-Pad1)">
+      <node ref="U4" pin="9"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="137" name="Net-(C25-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="138" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="139" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="140" name="Net-(C28-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="141" name="Net-(C28-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="C28" pin="2"/>
+    </net>
+    <net code="142" name="Net-(J8-PadTN)">
+      <node ref="U4" pin="8"/>
+      <node ref="J8" pin="TN"/>
+    </net>
+    <net code="143" name="Net-(J8-PadRN)">
+      <node ref="U4" pin="7"/>
+      <node ref="J8" pin="RN"/>
+    </net>
+    <net code="144" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="145" name="Net-(D3-Pad2)">
+      <node ref="U6" pin="7"/>
+      <node ref="R34" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="146" name="Net-(Q8-Pad1)">
+      <node ref="R62" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="147" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="148" name="Net-(R42-Pad1)">
+      <node ref="R42" pin="1"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="149" name="Net-(JP5-Pad2)">
+      <node ref="TR2" pin="2"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="150" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2"/>
+      <node ref="TR1" pin="2"/>
+    </net>
+    <net code="151" name="Net-(R51-Pad1)">
+      <node ref="U7" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="152" name="Net-(R52-Pad1)">
+      <node ref="U7" pin="7"/>
+      <node ref="R58" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="153" name="Net-(C44-Pad1)">
+      <node ref="C44" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="154" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="155" name="Net-(Q3-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="156" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="TR2" pin="5"/>
+    </net>
+    <net code="157" name="Net-(J10-PadTN)">
+      <node ref="J10" pin="TN"/>
+    </net>
+    <net code="158" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="TR2" pin="6"/>
+    </net>
+    <net code="159" name="Net-(J9-PadR)">
+      <node ref="JP4" pin="1"/>
+      <node ref="J9" pin="R"/>
+    </net>
+    <net code="160" name="Net-(J10-PadRN)">
+      <node ref="J10" pin="RN"/>
+    </net>
+    <net code="161" name="Net-(J9-PadTN)">
+      <node ref="J9" pin="TN"/>
+    </net>
+    <net code="162" name="Net-(J9-PadRN)">
+      <node ref="J9" pin="RN"/>
+    </net>
+    <net code="163" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="164" name="Net-(J10-PadS)">
+      <node ref="J10" pin="S"/>
+      <node ref="TR2" pin="1"/>
+    </net>
+    <net code="165" name="Net-(J10-PadR)">
+      <node ref="JP5" pin="1"/>
+      <node ref="J10" pin="R"/>
+    </net>
+    <net code="166" name="Net-(R47-Pad2)">
+      <node ref="R48" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="167" name="Net-(R49-Pad2)">
+      <node ref="R51" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="168" name="Net-(J9-PadT)">
+      <node ref="J9" pin="T"/>
+      <node ref="TR1" pin="3"/>
+    </net>
+    <net code="169" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="170" name="Net-(R42-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="171" name="Net-(J10-PadT)">
+      <node ref="J10" pin="T"/>
+      <node ref="TR2" pin="3"/>
+    </net>
+    <net code="172" name="Net-(J9-PadS)">
+      <node ref="TR1" pin="1"/>
+      <node ref="J9" pin="S"/>
+    </net>
+    <net code="173" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="TR1" pin="5"/>
+    </net>
+    <net code="174" name="Net-(C43-Pad1)">
+      <node ref="C43" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="175" name="Net-(Q5-Pad2)">
+      <node ref="TR1" pin="4"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="176" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="TR1" pin="6"/>
+    </net>
+    <net code="177" name="Net-(Q8-Pad2)">
+      <node ref="TR2" pin="4"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+  </nets>
+</export>
